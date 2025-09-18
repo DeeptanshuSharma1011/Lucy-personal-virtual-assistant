@@ -7,6 +7,8 @@ from lucy.features.translator import handle_translation  # FIXED import
 from lucy.features.jokes_facts import tell_joke_or_fact  # FIXED import
 from lucy.features.routine import handle_routine          # FIXED import
 from lucy.skills.system import handle_system  # FIXED import
+from lucy.features.youtube import play_on_youtube
+
 
 
 class AssistantPipeline:
@@ -47,7 +49,10 @@ class AssistantPipeline:
         # System controls (volume/mute)
         if "volume" in command or "mute" in command or "unmute" in command:
             return handle_system(command)
-
+        
+        # YouTube Music/Video
+        if "play" in command and "youtube" in command:
+            return play_on_youtube(command)
 
         # Routine (e.g. "good morning")
         if "good morning" in command:
