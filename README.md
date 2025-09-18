@@ -49,27 +49,27 @@ lucy-assistant/
 │── README.md                  # Project description
 │── main.py                    # Entry point
 
-Installation
+#Installation
 
-Clone the repository
+#Clone the repository
 
 git clone https://github.com/<your-username>/lucy-assistant.git
 cd lucy-assistant
 
 
-Create & activate virtual environment
+#Create & activate virtual environment
 
 python -m venv .venv
-# On Windows (PowerShell):
+On Windows (PowerShell):
 .venv\Scripts\Activate.ps1
 
 
-Install dependencies
+#Install dependencies
 
 pip install -r requirements.txt
 
 
-Add your API keys in config.yaml
+#Add your API keys in config.yaml
 
 apis:
   openweather:
@@ -79,15 +79,15 @@ apis:
     key: "YOUR_NEWSAPI_KEY"
     country: "in"
 
-▶️ Run Lucy
+#▶️ Run Lucy
 
 python -m lucy.main
 
-Lucy will greet you:
+#Lucy will greet you:
 
 Hello, I am Lucy. Say my name to begin.
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 
 Python 3.10+
 
