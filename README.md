@@ -6,15 +6,25 @@ Meet Lucy, a personal voice-controlled AI assistant that runs locally on your PC
 ✨ Features
 
 ✅ Wake Word Detection → Activate Lucy with "Hey Lucy" or "Lucy"
+
 ✅ Voice Commands → Speak naturally, Lucy understands and executes
+
 ✅ Local App Launcher → Open apps like Notepad, Paint, Calculator, WhatsApp, Discord, etc.
+
 ✅ Web Launcher → Open websites like YouTube, Google, LinkedIn, GitHub, etc.
+
 ✅ System Controls → Control volume, mute/unmute system
+
 ✅ Search Engine & Wikipedia → "Who is Elon Musk?" / "Search Python programming"
+
 ✅ Translations → Translate phrases into multiple languages and hear the result
+
 ✅ Fun Mode → Jokes, fun facts, and inspirational quotes
+
 ✅ Daily Routine → "Lucy, good morning" → Time + Weather + News briefing
+
 ✅ YouTube Music → "Lucy, play Shape of You on YouTube"
+
 ✅ Exit Gracefully → "Lucy, goodbye" → Lucy shuts down with a farewell
 
 lucy-assistant/
@@ -70,6 +80,7 @@ apis:
     country: "in"
 
 ▶️ Run Lucy
+
 python -m lucy.main
 
 Lucy will greet you:
